@@ -3,130 +3,38 @@ import React from 'react'
 export default function Card() {
   return (
     <>
-    <div className='pt-4 shadow-lg flex flex-wrap h-screen w-full'
+    <div className='pt-12  px-8 shadow-lg flex flex-wrap h-screen w-full'
       style={{
-        backgroundImage: "url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg')",
+        backgroundImage: "url('https://images.pexels.com/photos/1702812/pexels-photo-1702812.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "150vh",
+        height: "130vh",
         width: "100%",
       }}
     >
     
-        <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
+        <div className='flex  flex-col   rounded-3xl bg-slate-100  h-[650px] w-[550px] lg:w-[800px] lg:h-[600px]'>
+            <h1 className='text-2xl pt-4 ml-6  mr-6 my-4 font-bold'>About Airbnb: What it is and how it works</h1>
+            <p className='ml-6 mr-6'>Whether you host a home, lead guests on an exciting tour, or provide a service (like professional photography), you can make guest’s stays more memorable almost anywhere around the world.</p>
+            <ul>
+                
+                <li className='text-lg pt-4 ml-8 mb-2  '>Enjoy unique homes, experiences, services, and more</li>
+                <li className='text-lg pt-4 ml-8 my-2 '>A platform you can trust</li>
+                <li className='text-lg pt-4 ml-8 my-2 '>24/7 support for hosts and guests</li>
+                <li className='text-lg pt-4 ml-8 my-2 '>Hosting your home, an experience, or providing a service on Airbnb</li>
+            </ul>
         <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
+            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://assets.entrepreneur.com/article/1405623476-airbnb-logo-explanation.jpg" />
 
         </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
+        
         <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
+            
 
         </div>
      </div>
 
-     <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
-
-        </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
-        <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
-
-        </div>
-     </div>   
-
-     <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
-
-        </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
-        <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
-
-        </div>
-     </div>   
-
-     <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
-
-        </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
-        <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
-
-        </div>
-     </div> 
-    <div className='h-screen w-full flex flex-wrap'>
-     <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
-
-        </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
-        <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
-
-        </div>
-     </div>   
-      
-     <div className='flex  flex-col lg:flex-row mx-4 my-4 rounded-3xl bg-slate-300  h-[550px] w-[380px] lg:w-[600px] lg:h-[250px]'>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 my-6 h-40 w-30 ' src= "https://images.pexels.com/photos/32930559/pexels-photo-32930559.jpeg" />
-
-        </div>
-        <div className=''>
-            <img className=' rounded-lg mx-4 ml-8 lg:ml-16 my-6 h-43 w-[280px] lg:h-[160px] lg:w-[250px] ' src= "https://images.pexels.com/photos/11191206/pexels-photo-11191206.jpeg" />
-
-        </div>
-        <div className='mt-1 mx-4 ml-8  lg:my-8 lg:ml-20'>
-            <h1 className=' text-black font-bold
-            '>
-                Luxury Card
-            </h1>
-            <p className='text-slate-600 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum.</p>
-
-        </div>
-     </div>        
-    </div>
+     
     </div>
     </>
   )
