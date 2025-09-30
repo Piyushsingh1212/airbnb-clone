@@ -23,12 +23,7 @@ export default function Home() {
                         <option>Kolkata</option>
                         <option>Hyderabad</option>
                     </select>
-                    </div>
-
-
-
-                    
-                   
+                    </div> 
                 </li>
 
                 <div className='flex-col'>
