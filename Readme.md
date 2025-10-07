@@ -2,8 +2,6 @@
 
     ├── .gitignore
 
-    ├── README.md
-
     ├── eslint.config.js
 
     ├── index.html
